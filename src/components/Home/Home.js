@@ -44,7 +44,6 @@ class Home extends React.Component {
     const makeScatCards = scats.map(scat => (
       <ScatCard key={scat.id} scat={scat} deleteScat={this.deleteScat} />
     ));
-    this.setState({ scats });
     return (
       <div className="Home col">
         {/* <h1>Home</h1>

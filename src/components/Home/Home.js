@@ -13,13 +13,17 @@ class Home extends React.Component {
     scats: [],
   }
 
-  componentDidMount() {
+  getScats = () => {
     const { uid } = firebase.auth().currentUser;
     scatData.getScats(uid)
       .then((scats) => {
         this.setState({ scats });
       })
       .catch(err => console.error('no scats for you', err));
+  };
+
+  componentDidMount() {
+    this.getScats();
   }
 
   editEvent = (e) => {
@@ -28,12 +32,19 @@ class Home extends React.Component {
     this.props.history.push(`/edit/${orderId}`);
   };
 
+  deleteScat = (scatId) => {
+    scatData.deleteScat(scatId)
+      .then(() => this.getScats())
+      .catch(err => console.error('no scat deleted', err));
+  };
+
   render() {
     // const singleLink = '/scat/12345'; // ${scat.id} for example
     const { scats } = this.state;
     const makeScatCards = scats.map(scat => (
-      <ScatCard key={scat.id} scat={scat} />
+      <ScatCard key={scat.id} scat={scat} deleteScat={this.deleteScat} />
     ));
+    this.setState({ scats });
     return (
       <div className="Home col">
         {/* <h1>Home</h1>

@@ -1,0 +1,44 @@
+{
+  "scats": {
+    "scat1": {
+      "uid": "RbyyE5GmdXdugMP8I4hCdetzKhg1",
+      "location": "NSS",
+      "weight": "12g",
+      "color": "brown",
+      "sampleName": "Out of Control",
+      "animal": "bear"
+    },
+    "scat2": {
+      "uid": "RbyyE5GmdXdugMP8I4hCdetzKhg1",
+      "location": "Pearcy Warner",
+      "weight": "7g",
+      "color": "blue",
+      "sampleName": "A Modest Deposit",
+      "animal": "Racoon"
+    },
+    "scat3": {
+      "uid": "RbyyE5GmdXdugMP8I4hCdetzKhg1",
+      "location": "East Nashville",
+      "weight": "8g",
+      "color": "green",
+      "sampleName": "Into The Wild",
+      "animal": "coyote"
+    },
+    "scat4": {
+      "uid": "asdfdsfj7888",
+      "location": "NSS",
+      "weight": "12g",
+      "color": "brown",
+      "sampleName": "Out of Control",
+      "animal": "bear"
+    },
+    "scat5": {
+      "uid": "sajdf&&LSJLK",
+      "location": "Your Mom's House",
+      "weight": "14g",
+      "color": "black",
+      "sampleName": "Holy Expletive",
+      "animal": "Bull Elephant"
+    }
+  }
+}

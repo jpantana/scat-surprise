@@ -51,7 +51,7 @@ class Home extends React.Component {
         <Link to={singleLink}>View Single</Link> */}
         <div className="col">
           <h2 className="col">Scat names</h2>
-            <div className="d-flex">
+            <div className="d-flex row">
               { makeScatCards }
             </div>
         </div>

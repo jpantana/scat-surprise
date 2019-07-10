@@ -37,11 +37,11 @@ class NewScat extends React.Component {
 
   formSubmit = (e) => {
     e.preventDefault();
-    const saveMe = { ...this.state.newScat };
-    saveMe.uid = firebase.auth().currentUser.uid;
+    const saveMe = { ...this.state.newScat }; // makes a copy so you don't directly modify the state
+    saveMe.uid = firebase.auth().currentUser.uid; // adds this key/value
     scatData.postScat(saveMe)
       .then(() => {
-        this.props.history.push('/home')
+        this.props.history.push('/home');
       }).catch(err => console.error('no scat saved', err));
   };
 

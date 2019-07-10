@@ -56,7 +56,8 @@ class NewScat extends React.Component {
             <input
               type="text"
               className="form-control"
-              id="sampleName" placeholder="Sample Name"
+              id="sampleName"
+              placeholder="Sample Name"
               value={newScat.sampleName}
               onChange={this.sampleNameChange}
             />
@@ -66,7 +67,8 @@ class NewScat extends React.Component {
             <input
               type="text"
               className="form-control"
-              id="location" placeholder="location"
+              id="location"
+              placeholder="location"
               value={newScat.location}
               onChange={this.locationChange}
             />
@@ -76,7 +78,8 @@ class NewScat extends React.Component {
             <input
               type="text"
               className="form-control"
-              id="color" placeholder="color"
+              id="color"
+              placeholder="color"
               value={newScat.color}
               onChange={this.colorChange}
             />
@@ -86,7 +89,8 @@ class NewScat extends React.Component {
             <input
               type="text"
               className="form-control"
-              id="weight" placeholder="weight"
+              id="weight"
+              placeholder="weight"
               value={newScat.weight}
               onChange={this.weightChange}
             />
@@ -96,7 +100,8 @@ class NewScat extends React.Component {
             <input
               type="text"
               className="form-control"
-              id="animal" placeholder="animal"
+              id="animal"
+              placeholder="animal"
               value={newScat.animal}
               onChange={this.animalChange}
             />

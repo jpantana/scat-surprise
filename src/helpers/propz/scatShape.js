@@ -8,4 +8,5 @@ const scatShape = PropTypes.shape({
   uid: PropTypes.string.isRequired,
   weight: PropTypes.string.isRequired,
 });
-export default scatShape;
+
+export default { scatShape };

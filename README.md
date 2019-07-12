@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 A website to that allows a user to catalog scats found in the wild.
 
 ## Screenshots
-![Image of the Scat Surprise website.](https://raw.githubusercontent.com/jpantana/personal-bio-site/style2/imgs/hoarder.png "screenshot of Scat Surprise site.")
+![Image of the Scat Surprise website.](https://raw.githubusercontent.com/jpantana/scat-surprise/master/screenshots/scat.png "screenshot of Scat Surprise site.")
 
 ## Installation Instructions
 * Clone down this repo
